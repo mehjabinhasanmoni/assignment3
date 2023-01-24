@@ -1,0 +1,130 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.text-theme{
+    color: #EB455F;
+}
+.custom-block{
+    display: block !important;
+    width: 100%;
+}
+.bg-theme{
+    background-color: #EB455F;
+    transition: 500ms;
+    cursor: pointer;
+}
+.bg-theme:hover{
+    background-color: #c4001d;
+    color: white;
+}
+.custom-fonts_eb {
+  font-family: "EB Garamond", serif;
+}
+
+.custom-py {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.custom-chevron-right-arrow {
+  margin-left: 15px;
+  transition: 500ms;
+}
+.logo {
+  height: 60px;
+}
+.navbar-brand span {
+  font-weight: 800;
+  font-size: 22px;
+}
+header ul :hover .custom-chevron-right-arrow {
+  color: #EB455F;
+  transform: rotate(0.5turn);
+}
+.custom-btn-primary {
+  color: #fff;
+  transition: 500ms;
+  padding: 10px 25px;
+}
+.custome-banner-image {
+  background-image: linear-gradient(
+    to top, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 1)
+  ),url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.banner h1 {
+  font-size: 72px;
+}
+
+.common-title {
+  font-weight: 800;
+  font-size: 40px;
+  color: #414040;
+}
+
+.course-box:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(243, 243, 243, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+}
+.course-box h4 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #414040;
+}
+.course-box>a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+/* Slider */
+.accordion-bg {
+  background: #f3f3f3 !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  padding: 10px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+  content: "-";
+  font-size: 28px;
+}
+
+.accordion-button::after {
+  content: "+";
+  font-size: 28px;
+  background-image: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000000;
+}
+
+/* Footer */
+
+footer .logo {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+/* Responsive fix */
+
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+  .common-title {
+    font-size: 30px;
+  }
+  .course-box {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
+  }
+}
